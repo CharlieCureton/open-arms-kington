@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+}
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url('img/oxford_arms_sketch_background_1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+div#container {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  min-height: 100vh !important;
+  padding-top: 167px;
+}
+div#container div#content {
+  flex-grow: 1;
+}
+div#container footer {
+  flex-basis: 130px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-dark {
+  background-color: #2b3618 !important;
+}
+.sublist {
+  position: absolute;
+  list-style: none;
+}
+.nav-sublist {
+  width: 150px;
+  box-sizing: border-box;
+  background-color: #2b3618 !important;
+  padding: 10px;
+  z-index: 5;
+  margin-top: 25px;
+  border-radius: 7px;
+}
+.nav-sublist:after {
+  color: #2b3618;
+  border-bottom: 13px solid;
+  border-right: 13px solid transparent;
+  border-left: 13px solid transparent;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  top: -13px;
+  left: 20px;
+}
+.navigation-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  height: 167px;
+}
+.nav-sublist-el .nav-link {
+  padding: 0;
+  margin: 0;
+}
+.nav-header {
+  color: #ddd;
+  font-size: 46px;
+  font-family: 'Granville', sans;
+}
+.nav-header span {
+  color:#556b2f; 
+}
+.navigation h2 {
+  color: #808080;
+  font-size: 20px;
+  font-family: 'Granville', sans;
+}
+.nav-item {
+  color: #eee !important;
+  font-size: 20px !important;
+  font-family: 'Granville', sans !important;
+}
+.footer {
+  position: relative;
+  margin-top: -180px;
+  width: 100vw;
+  clear: both;
+  height: 180px;
+  z-index: 20;
+}
