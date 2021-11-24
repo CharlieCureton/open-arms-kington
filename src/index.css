@@ -8,9 +8,10 @@ body {
   position: relative;
   top: 0;
   left: 0;
+  min-height: 100vh;
   width: 100vw;
-  height: 100vh;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 body::before {
   content: '';
@@ -19,7 +20,7 @@ body::before {
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: url('img/oxford_arms_sketch_background_1.png');
+  background-image: url('img/sketch_background.png');
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 5%;
@@ -34,16 +35,18 @@ h1,h2,h3,h4,h5,h6 {
   padding: 0 !important;
 }
 div#container {
+  padding-top: 167px;
+}
+div#wrapper {
   display: flex;
   display: -webkit-flex;
   flex-direction: column;
-  min-height: 100vh !important;
-  padding-top: 167px;
+  min-height: calc(100vh - 167px) !important;
 }
-div#container div#content {
+div#wrapper div#content {
   flex-grow: 1;
 }
-div#container footer {
+div#wrapper footer {
   flex-basis: 130px;
 }
 .container {
@@ -91,8 +94,17 @@ div#container footer {
 }
 .nav-header {
   color: #ddd;
-  font-size: 46px;
+  font-size: 44px;
   font-family: 'Granville', sans;
+}
+@media screen and (max-width:453px) {
+  .nav-header {
+    font-size: 10vw;
+    text-align: center;
+  }
+  .nav-link {
+    font-size: 5vw;
+  }
 }
 .nav-header span {
   color:#556b2f; 
@@ -108,10 +120,11 @@ div#container footer {
   font-family: 'Granville', sans !important;
 }
 .footer {
-  position: relative;
-  margin-top: -180px;
+  position:absolute;
+  left: 0;
   width: 100vw;
-  clear: both;
-  height: 180px;
   z-index: 20;
+}
+footer {
+  color: #aaa;
 }

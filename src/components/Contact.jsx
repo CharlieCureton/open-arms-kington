@@ -2,6 +2,7 @@ import React from "react";
 
 function Contact() {
   return (
+    <div id="wrapper">
     <div className="contact">
       <div className="container">
         <div className="row align-items-center my-5">
@@ -23,6 +24,7 @@ function Contact() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

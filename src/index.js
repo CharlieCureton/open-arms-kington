@@ -4,13 +4,13 @@ import "./index.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import {
   Navigation,
-  Footer,
   Home,
   About,
   Contact,
   News,
   Articles,
   Article,
+  Footer,
 } from "./components";
 ReactDOM.render(
   <Router>
@@ -25,8 +25,8 @@ ReactDOM.render(
         <Route path=":postSlug" element={<Article />} />
       </Route>
     </Routes>
-    </div>
     <Footer />
+    </div>
   </Router>,
 
   document.getElementById("root")

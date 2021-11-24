@@ -19,5 +19,10 @@
     <div id="container">
       <div id="root"></div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function(event) { 
+        document.querySelector('footer').style.top = document.querySelector('body').offsetHeight - document.querySelector('footer').offsetHeight + 'px';
+      });
+    </script>
   </body>
 </html>
