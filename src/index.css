@@ -24,6 +24,7 @@ body::before {
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 5%;
+  z-index: -1;
 }
 
 code {
@@ -47,7 +48,7 @@ div#wrapper div#content {
   flex-grow: 1;
 }
 div#wrapper footer {
-  flex-basis: 130px;
+  flex-basis: 300px;
 }
 .container {
   display: flex;
