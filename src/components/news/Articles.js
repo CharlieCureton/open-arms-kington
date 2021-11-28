@@ -31,5 +31,4 @@ function Articles() {
     </div>
   );
 }
-document.querySelector('.dropdown').style.display = 'none';
 export default Articles;

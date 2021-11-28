@@ -28,5 +28,4 @@ function Home() {
     </div>
   );
 }
-document.querySelector('.dropdown').style.display = 'none';
 export default Home;

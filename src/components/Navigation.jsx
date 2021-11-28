@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import $ from "jquery";
 function Navigation() {
     return (
         <div className="navigation-wrapper">
@@ -29,11 +30,11 @@ function Navigation() {
                                     </NavLink>
                                 </li>
                                 <li className="nav-item noselect" id="about">
-                                    <NavLink className="nav-link" to="/about">
+                                    <NavLink onClick={showDropdown} className="nav-link" to="/about">
                                     About
                                     </NavLink>
                                     <div className="dropdown nav-dropdown">
-                                        <ul className="sublist nav-sublist disabled">
+                                        <ul className="sublist nav-sublist disabled" id="dropdown">
                                             <li className="nav-item noselect nav-sublist-el" id="our-story">
                                                 <NavLink className="nav-link" to="/about/our-story">
                                                     Our Story
@@ -61,3 +62,26 @@ function Navigation() {
     )
 }
 export default Navigation;
+function showDropdown() {
+    document.querySelector('.dropdown').classList.toggle("show");
+}
+$(document).on('mouseup',function(e) 
+{
+    var container = $("#about");
+    if (!container.is(e.target) && container.has(e.target).length === 0) 
+    {
+        if ($('.dropdown').hasClass("show")) {
+            document.querySelector('.dropdown').classList.remove("show");
+        }
+    }
+});
+var lastScrollTop = 0;
+$(window).scroll(function(event){
+   var st = $(this).scrollTop();
+   if (st > lastScrollTop){
+       $('.navbar').addClass('minimized');
+   } else {
+      $('.navbar').removeClass('minimized');
+   }
+   lastScrollTop = st;
+});

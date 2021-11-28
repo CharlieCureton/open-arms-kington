@@ -28,6 +28,4 @@ function About() {
     </div>
   );
 }
-document.querySelector('.dropdown').style.display = 'block';
-
 export default About;
