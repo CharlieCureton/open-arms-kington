@@ -14,5 +14,5 @@ function News() {
     </div>
   );
 }
-
+document.querySelector('.dropdown').style.display = 'none';
 export default News;

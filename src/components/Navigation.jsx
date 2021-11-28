@@ -1,6 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
 function Navigation() {
     return (
         <div className="navigation-wrapper">
@@ -13,40 +12,39 @@ function Navigation() {
                         <h2>Herefordshire</h2>
                         <div>
                             <ul className="navbar-nav ml-auto">
-                                <li className="nav-item noselect">
+                                <li className="nav-item noselect" id="home">
                                     <NavLink className="nav-link" to="/">
                                         Home
                                         <span className="sr-only">(current)</span>
                                     </NavLink>
                                 </li>
-                                <li className="nav-item noselect">
+                                <li className="nav-item noselect" id="news">
                                     <NavLink className="nav-link" to="/news">
                                         News
                                     </NavLink>
                                 </li>
-                                <li className="nav-item noselect">
+                                <li className="nav-item noselect" id="contact">
                                     <NavLink className="nav-link" to="/contact">
                                         Contact
                                     </NavLink>
                                 </li>
-                                <li className="nav-item noselect">
+                                <li className="nav-item noselect" id="about">
                                     <NavLink className="nav-link" to="/about">
                                     About
                                     </NavLink>
-                                    <div className="dropdown closed nav-dropdown">
-                                        <div className="caretUp"></div>
-                                        <ul className="hidden sublist nav-sublist">
-                                            <li className="nav-item noselect nav-sublist-el">
+                                    <div className="dropdown nav-dropdown">
+                                        <ul className="sublist nav-sublist disabled">
+                                            <li className="nav-item noselect nav-sublist-el" id="our-story">
                                                 <NavLink className="nav-link" to="/about/our-story">
                                                     Our Story
                                                 </NavLink>
                                             </li>
-                                            <li className="nav-item noselect nav-sublist-el">
+                                            <li className="nav-item noselect nav-sublist-el" id="who-we-are">
                                                 <NavLink className="nav-link" to="/about/who-we-are">
                                                     Who We Are
                                                 </NavLink>
                                             </li>
-                                            <li className="nav-item noselect nav-sublist-el">
+                                            <li className="nav-item noselect nav-sublist-el" id="funding">
                                                 <NavLink className="nav-link" to="/about/funding">
                                                     Funding
                                                 </NavLink>

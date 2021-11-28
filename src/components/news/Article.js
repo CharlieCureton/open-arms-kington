@@ -52,5 +52,5 @@ function Article() {
     </div>
   );
 }
-
+document.querySelector('.dropdown').style.display = 'none';
 export default Article;

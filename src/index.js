@@ -11,6 +11,9 @@ import {
   Articles,
   Article,
   Footer,
+  OurStory,
+  WhoWeAre,
+  Funding,
 } from "./components";
 ReactDOM.render(
   <Router>
@@ -18,9 +21,10 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />}>
-        
-      </Route>
+      <Route path="/about" element={<About />}/>
+      <Route path="/about/who-we-are" element={<WhoWeAre />} />
+      <Route path="/about/our-story" element={<OurStory />} />
+      <Route path="/about/funding" element={<Funding />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/news" element={<News />}>
         <Route path="" element={<Articles />} />
