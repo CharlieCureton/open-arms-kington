@@ -34,10 +34,14 @@ code {
 h1,h2,h3,h4,h5,h6 {
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Granville', sans;
+  font-family: 'Granville', sans !important;
 }
 div#container {
   padding-top: 167px;
+  transition: padding-top 1s;
+}
+div#container.minimized {
+  padding-top: 70px !important;
 }
 div#wrapper {
   animation:fade_in_li 1s;
@@ -230,5 +234,33 @@ footer {
   }
   .card-contact-details {
     display: flex;
+  }
+  div.row#section_1 {
+    background-image: url('img/kington.jpg');
+    background-size:cover;
+    background-position: center;
+    min-height: 400px;
+    margin-top: -20px;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+  }
+  div.row#section_1 p {
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 40px;
+    margin: 0px 100px;
+    padding: 10px;
+  }
+  .center {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
   }
   

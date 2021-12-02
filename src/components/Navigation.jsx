@@ -76,12 +76,14 @@ $(document).on('mouseup',function(e)
     }
 });
 var lastScrollTop = 0;
-$(window).scroll(function(event){
+$(window).on('scroll',function(event){
    var st = $(this).scrollTop();
    if (st > lastScrollTop){
        $('.navbar').addClass('minimized');
+       $('#container').addClass('minimized');
    } else {
       $('.navbar').removeClass('minimized');
+      $('#container').removeClass('minimized');
       document.querySelector('.dropdown').classList.remove("show");
    }
    lastScrollTop = st;

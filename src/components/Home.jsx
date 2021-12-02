@@ -1,15 +1,19 @@
 import React from "react";
-
 function Home() {
   return (
     <div id="wrapper">
       <div className="home">
         <div className="container">
-          <div className="row align-items-center my-5" id="section_1">
-            <img src="https://d2j31icv6dlhz6.cloudfront.net/L/qPRAKAZ6WbaWEucS02Ic/Kington-GeneralView2.jpg"></img>
+          <div className="row align-items-center" id="section_1">
+            <p>
+            Open Arms Kington was formed by a group of residents aspiring to create a kind &amp; welcoming, flexible community space for Kington, a facility currently lacking in the town.
+            </p>
           </div>
           <div className="row align-items-center my-5" id="section_2">
-            Section 2
+            <h2 className="center">News &amp; Achievements</h2>
+            <article class="story" id="latest">
+
+            </article>
           </div>
           <div className="row align-items-center my-5" id="section_3">
             Section 3
