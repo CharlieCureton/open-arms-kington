@@ -82,6 +82,7 @@ $(window).scroll(function(event){
        $('.navbar').addClass('minimized');
    } else {
       $('.navbar').removeClass('minimized');
+      document.querySelector('.dropdown').classList.remove("show");
    }
    lastScrollTop = st;
 });
