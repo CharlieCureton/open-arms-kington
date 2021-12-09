@@ -61,7 +61,6 @@ function Navigation() {
         </div>
     )
 }
-var timer = 0;
 export default Navigation;
 function showDropdown() {
     document.querySelector('.dropdown').classList.toggle("show");

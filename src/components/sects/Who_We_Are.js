@@ -117,6 +117,45 @@ function WhoWeAre() {
                   </p>
                 </div>
               </div>
+              <div className="user-card">
+                <div className="card-img user-card-img-slot">
+                  <img src="http://placehold.it/200x250" alt="person"></img>
+                </div>
+                <div className="card-info user-card-info">
+                  <div>
+                    <b>Judith Gardner</b>
+                    <br/>
+                    <i>Occupation</i>
+                  </div>
+                  <div className="card-contact-details">
+                    <label for="email"><svg xmlns="http://www.w3.org/2000/svg" width="24" fill="blue" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg></label>
+                    <b name="email">&nbsp;judithgardner@openarmskington.com</b>
+                  </div>
+                </div>
+              </div>
+              <div className="user-card">
+                <div className="card-img user-card-img-slot">
+                  <img src="http://placehold.it/300x400" alt="person"></img>
+                </div>
+                <div className="card-info user-card-info">
+                  <div>
+                    <b>Alys Williams</b>
+                    <br/>
+                    <i>Occupation</i>
+                  </div>
+                  <div className="card-contact-details">
+                    <label for="email"><svg xmlns="http://www.w3.org/2000/svg" width="24" fill="blue" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg></label>
+                    <b name="email">&nbsp;patrickconrad@openarmskington.com</b>
+                  </div>
+                  <p>
+                  My background is in the creative sector, having worked backstage in the theatre,
+coordinated children&#39;s craft workshops and run my own small business making
+leather goods. I now work as a gardener spending most of my life outdoors in &amp;
+around Kington. I very happy with the change of course my life has taken and am
+training to be a landscape designer. I hope to help create a welcoming, engaging
+space for our community, both inside and out.                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

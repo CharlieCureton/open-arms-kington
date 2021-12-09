@@ -23,6 +23,10 @@ function Articles() {
               </div>
             </div>
           </Link>
+          <h2>More Articles:</h2>
+          <div className="other-articles card my-3 mx-3 py-4">
+            <p className="text-muted mx-4 my-4">We couldn't seem to find any other articles</p>
+          </div>
         </div>
       </div>
     </div>
