@@ -22,7 +22,6 @@ ReactDOM.render(
     <Navigation />
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />}/>
       <Route path="/about/who-we-are" element={<WhoWeAre />} />
       <Route path="/about/our-story" element={<OurStory />} />
       <Route path="/about/funding" element={<Funding />} />

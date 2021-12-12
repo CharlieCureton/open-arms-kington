@@ -21,9 +21,13 @@ function NotFound() {
                     <p>
                     We can't seem to find the page you're looking for. Make sure to check your spelling.
                     </p>
-                    <Link to="/">
+                    <Link to="/" className="color-blue hover-color-blue">
                         Go back to home page
                     </Link>
+                    &nbsp;or&nbsp;
+                    <a href="javascript:history.back()" className="color-blue hover-color-blue">
+                        Go to previous page
+                    </a>
                 </div>
             </div>
         </div>

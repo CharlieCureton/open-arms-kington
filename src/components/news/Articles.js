@@ -11,14 +11,14 @@ function Articles() {
               <div className="col-lg-4">
                 <img
                   className="img-fluid rounded mb-4 mb-lg-0"
-                  src="http://placehold.it/400x200"
+                  src="https://placeholder.com/400x200"
                   alt=""
                 />
               </div>
               <div className="col-lg-7">
                 <h2 className="font-weight-light">OAK Funding</h2>
                 <p className="font-size-19">
-                OAK is delighted to announce that the project has been awarded a grant of £31,620 by the Community Lottery Fund and £10,000 by the Architectural Heritage Fund. This will facilitate a feasibility study for the project including extensive community consultations&hellip;
+                OAK is delighted to announce that the project has been awarded a grant of £31,620 by the Community Lottery Fund and £10,000 by the Architectural Heritage Fund. This will <span className="text-muted">facilitate a feasibility study for the project including&hellip;</span>
                 </p>
               </div>
             </div>

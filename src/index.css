@@ -179,10 +179,10 @@ animation:ul_in .25s;
 display:block!important;
 }
 
-.dropdown {
-height:0;
-animation:ul_out .25s;
-display:block;
+.dropdown.hide {
+  height:0;
+  animation:ul_out .25s;
+  display:block;
 }
 
 .dropdown.show ul {
@@ -190,8 +190,7 @@ animation:fade_in_li .5s;
 }
 
 .dropdown.hide ul {
-animation:fade_out_li .5s;
-opacity:0;
+display: none;
 }
 
 .dropdown ul {
@@ -537,4 +536,7 @@ div#section_3 button i {
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-outline-primary.dropdown-toggle:focus {
   box-shadow: 0 0 0 .2rem #59703181;
+}
+#about > a {
+  color: #CCC !important;
 }

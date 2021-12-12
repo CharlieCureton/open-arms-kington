@@ -18,16 +18,16 @@ function Home() {
                   <div className="col-lg-4">
                     <img
                       className="img-fluid rounded mb-4 mb-lg-0"
-                      src="http://placehold.it/400x500"
+                      src="https://placeholder.com/400x400"
                       alt=""
                     />
                   </div>
                   <div className="col-lg-7">
-                  <Link to="/news/latest">
-                    <p>
-                    OAK is delighted to announce that the project has been awarded a grant of £31,620 by the Community Lottery Fund and £10,000 by the Architectural Heritage Fund. This will facilitate a feasibility study for the project including extensive community consultations. Funding includes initial consultations with architectural services, a hospitality and community pub advisor, quantity surveyor and full structural survey. A significant sum of £9,600 has be allocated to youth provision in Kington, including dedicated young people’s consultation and support from a youth enterprise advisor.
+                    <p className="my-2">
+                    OAK is delighted to announce that the project has been awarded a grant of £31,620
+by the Community Lottery Fund and £10,000 <span class="text-muted">by the Architectural Heritage Fund.
+This will&#8230;</span><Link to="/news/latest" className="color-blue hover-color-blue">&nbsp;Read More</Link>
                     </p>
-                  </Link>
                   </div>
                 </div>
               </article>

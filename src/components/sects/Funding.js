@@ -9,7 +9,7 @@ function Funding() {
               <div className="col-lg-5">
                 <img
                   className="img-fluid rounded mb-4 mb-lg-0"
-                  src="http://placehold.it/900x400"
+                  src="https://placeholder.com/900x400"
                   alt=""
                 />
               </div>

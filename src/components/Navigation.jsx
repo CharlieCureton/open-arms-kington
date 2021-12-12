@@ -30,7 +30,7 @@ function Navigation() {
                                     </NavLink>
                                 </li>
                                 <li className="nav-item noselect" id="about">
-                                    <NavLink onClick={showDropdown} className="nav-link" to="/about">
+                                    <NavLink onClick={showDropdown} className="nav-link" to="#">
                                     About
                                     </NavLink>
                                     <div className="dropdown nav-dropdown hide">
