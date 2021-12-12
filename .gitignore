@@ -11,6 +11,9 @@
 # production
 /build
 
+#ftp
+.ftpconfig
+
 # misc
 .DS_Store
 .env.local

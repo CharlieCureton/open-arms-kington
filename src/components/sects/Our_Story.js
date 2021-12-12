@@ -10,7 +10,7 @@ function OurStory() {
             <div className="col-lg-7">
                 <img
                     className="img-fluid rounded mb-4 my-5 mb-lg-0"
-                    src="https://placeholder.com/800x250"
+                    src="https://via.placeholder.com/800x250"
                     alt=""
                   />
                 <p className="my-5">

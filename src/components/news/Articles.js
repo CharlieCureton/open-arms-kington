@@ -11,7 +11,7 @@ function Articles() {
               <div className="col-lg-4">
                 <img
                   className="img-fluid rounded mb-4 mb-lg-0"
-                  src="https://placeholder.com/400x200"
+                  src="https://via.placeholder.com/400x200"
                   alt=""
                 />
               </div>

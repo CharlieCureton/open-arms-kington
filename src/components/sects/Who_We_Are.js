@@ -17,7 +17,7 @@ function WhoWeAre() {
             <div className="row align-items-center my-1">
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/200x250" alt="person"></img>
+                  <img src="https://via.placeholder.com/200x250" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                   <div>
@@ -33,7 +33,7 @@ function WhoWeAre() {
               </div>
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/200x250" alt="person"></img>
+                  <img src="https://via.placeholder.com/200x250" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                 <div>
@@ -49,7 +49,7 @@ function WhoWeAre() {
               </div>
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/200x250" alt="person"></img>
+                  <img src="https://via.placeholder.com/200x250" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                 <div>
@@ -65,7 +65,7 @@ function WhoWeAre() {
               </div>
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/200x250" alt="person"></img>
+                  <img src="https://via.placeholder.com/200x250" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                 <div>
@@ -81,7 +81,7 @@ function WhoWeAre() {
               </div>
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/200x250" alt="person"></img>
+                  <img src="https://via.placeholder.com/200x250" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                 <div>
@@ -100,7 +100,7 @@ function WhoWeAre() {
             <div className="row align-items-center my-3">
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/300x400" alt="person"></img>
+                  <img src="https://via.placeholder.com/300x400" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                   <div>
@@ -119,7 +119,7 @@ function WhoWeAre() {
               </div>
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/200x250" alt="person"></img>
+                  <img src="https://via.placeholder.com/200x250" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                   <div>
@@ -135,7 +135,7 @@ function WhoWeAre() {
               </div>
               <div className="user-card">
                 <div className="card-img user-card-img-slot">
-                  <img src="https://placeholder.com/300x400" alt="person"></img>
+                  <img src="https://via.placeholder.com/300x400" alt="person"></img>
                 </div>
                 <div className="card-info user-card-info">
                   <div>

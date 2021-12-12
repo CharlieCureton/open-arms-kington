@@ -9,7 +9,7 @@ function About() {
             <div className="col-lg-7">
               <img
                 className="img-fluid rounded mb-4 mb-lg-0"
-                src="https://placeholder.com/900x400"
+                src="https://via.placeholder.com/900x400"
                 alt=""
               />
             </div>
