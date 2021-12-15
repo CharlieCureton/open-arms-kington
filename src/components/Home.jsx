@@ -18,7 +18,7 @@ function Home() {
                   <div className="col-lg-4">
                     <img
                       className="img-fluid rounded mb-4 mb-lg-0"
-                      src="https://placeholder.com/400x400"
+                      src="https://via.placeholder.com/400x400"
                       alt=""
                     />
                   </div>
